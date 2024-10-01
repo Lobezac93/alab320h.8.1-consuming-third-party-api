@@ -1,0 +1,45 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+  border: 20px solid green;
+}
+
+.starship-grid {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+  gap: 20px; 
+  padding: 20px;
+}
+
+
+.card {
+  background-color: rgb(172, 211, 172);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  transition: transform 0.2s;
+  height: 200px;
+  width: 200px;
+}
+
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  background-color: green;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 100px;
+}
+
